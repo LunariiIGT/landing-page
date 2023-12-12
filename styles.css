@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+
+/*HEADER_1 START*/
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    background-color: #1B3A88;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.h1_title{
+    font-size: 26px;
+    font-weight:bolder;
+    color: #DDE8FF;
+    margin-left: 150px;
+}
+
+.h1_links{
+    display: grid;
+    margin-right: 193px;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.l0:hover{
+    cursor: pointer;
+    font-weight:500;
+}
+
+.h1_title:hover{
+    cursor: pointer;
+    font-weight:850;
+}
+
+.l0{
+    margin-left:20px;
+    margin-right:15px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*HEADER_2*/
+
+.header2{
+    display: flex;
+    background-color: #1B3A88;
+    padding: 50px;
+    padding-bottom: 125px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2_title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #DDE8FF;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.h2_text{
+    display:flex;
+
+    width:400px;
+    margin-right:100px;
+    color: #e5e7eb;
+    font-size: 18px;
+
+    flex-direction: column;
+    text-align: justify;
+    align-items:center;
+}
+
+.h2_image{ 
+    display: flex;
+
+    background-size: cover;
+    background-image: url("image.png");
+    width: 600px;
+    height: 250px;
+
+    border-radius: 8px;
+
+    color: #e5e7eb;
+
+    justify-content:center;
+    align-items: center;
+    transition: transform .2s;
+}
+    .h2_image:hover {
+        transform: scale(1.04); 
+}
+
+.h2_button{
+    margin-top:20px;
+
+    color: #e5e7eb;
+
+    background-color: #3882F6;
+    border:none;
+
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.h2_button:hover{
+    background-color: #2d6cd1;
+    cursor: pointer;
+}
+
+/* INFORMATION */
+
+.inf_title{
+    padding-top:35px;
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3459B6;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top:45px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.box{
+    height: 170px;
+    width: 170px;
+    transition: transform .2s;
+}  
+
+    .box:hover {
+        transform: scale(1.08); 
+  }
+
+    #b1{
+        border-radius: 15px;
+        background-color: #4b81ff;
+    }
+
+    #b2{
+        background-color: #3D6CE0;
+        border-radius: 15px;
+    }
+
+    #b3{
+        background-color: #3459B6;
+        border-radius: 15px;
+    }
+
+    #b4{
+        background-color: #3459B6;
+        border-radius: 15px;
+    }
+
+.inf_text{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top:15px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.inf_t{
+    height: 100px;
+    width: 180px;
+    
+    color: #5777C1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;    
+}
+
+.inf{
+    background-color: #DDE8FF;
+}
+
+/* QUOTE */
+
+.quo_text{
+    font-style:italic;
+    font-weight: 300;
+    font-size: 36px;
+
+    text-align:justify;
+    color:#1429B2;
+}
+
+.quo_person{
+    font-weight:450;
+    font-size: 20px;
+
+    color: #1B3A88;
+    text-align:right;
+}
+
+.quote{
+    padding-top:50px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 800px;
+    padding-bottom:50px;
+}
+
+.quote_out{
+    background-color: #F0F0F0
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #1861FF;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 700px;
+    height: 50px
+}
+
+
+.footer_tit{
+    color: #f0f0f0;
+    font-size: 28px;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+
+.footer_desc{
+    color: #f0f0f0;
+    font-size: 18px;
+
+    width: 400px;
+}
+
+.footer_button{
+    margin-top:20px;
+    margin-left: 30px;
+
+    color: #e5e7eb;
+    background-color:#1861FF;
+
+    border: 2px solid #f0f0f0;
+
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.footer_button:hover{
+    background-color: #1555e0;
+    cursor: pointer;
+}
+
+.footer_out{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DDE8FF;
+}
